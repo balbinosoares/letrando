@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'dart:async';
 import 'package:letrando/model/model.dart';
-import 'package:http/http.dart' as http;
+
 
 
 class MyHomePage extends StatefulWidget {
@@ -25,7 +24,7 @@ class _MyHomePageState extends State<MyHomePage> {
   void _changeImage() { 
 
     if (flg){
-      model.fetchImages('coruja').then((String result){
+      model.fetchImages('tamanduá').then((String result){
         setState(() {
         _imageSrc = result;
         flg = false;

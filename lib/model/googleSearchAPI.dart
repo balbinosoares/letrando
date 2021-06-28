@@ -30,8 +30,6 @@ Future<String> fetchImages(String imageName) async{
     throw Exception('Falha ao buscar imagens na API');
   }
 
-
-  //return http.get(Uri.parse('https://jsonplaceholder.typicode.com/albums/1'));
 }
 
 
