@@ -2,6 +2,10 @@
 
 A new Flutter project.
 
+# How to run locally
+- Run flutter pub get
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
